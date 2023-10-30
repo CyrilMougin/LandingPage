@@ -5,6 +5,7 @@ body {
 }
 
 
+
 header {
     background-color: #1F2937;
     display: flex;
@@ -13,7 +14,12 @@ header {
 
 header > nav {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 header > nav > ul { 
@@ -25,6 +31,15 @@ header > nav > ul {
     display: flex;
 }
 
+.header-main-text {
+    color: #F9FAF8;
+}
+
+.header-secondary-text {
+    color: #E5E7EB;
+}
+
+
 
 .content {
     flex: 1;
@@ -35,3 +50,12 @@ header > nav > ul {
     display: flex;
 }
 
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
