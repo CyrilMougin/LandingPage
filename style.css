@@ -20,6 +20,8 @@ a {
     text-decoration: none;
 }
 
+
+
 /*################## HEADER ########################################################*/
 
 header {
@@ -140,13 +142,25 @@ header > nav > ul,
 /*################ Sign up #############################*/
 
 .signUp-container {
-    padding: 50px;
+   padding: 120px 0px ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 
 .signUp-card {
+    padding: 10px 120px;
+    border-radius: 1em;
     background-color: #3882F6;
     display: flex;
+    gap: 200px; 
+}
+
+#signUp-button {
+    align-self: center;
+    height: 30px;
+    width: 100px;
 }
 
 
