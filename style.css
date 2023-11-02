@@ -1,12 +1,10 @@
 body {
-    margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
 }
-
 
 .content {
     flex: 1;
@@ -20,6 +18,13 @@ a {
     text-decoration: none;
 }
 
+p,
+h1,
+h2,
+body {
+    margin: 0;
+    padding: 0;
+}
 
 
 /*################## HEADER ########################################################*/
@@ -28,6 +33,7 @@ header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding: 10px 0px 100px 0px;
     margin-bottom: 5%;
 }
 
@@ -45,13 +51,13 @@ header > nav > ul {
 
 header > nav > h1,
 .hero-text {
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 
 header > nav > ul,
 .hero > img {
-    margin-right: 10%;
+    margin-right: 20%;
 }
 
 
@@ -64,6 +70,9 @@ header > nav > ul,
     font-size: 48px;
 }
 
+.hero-text {
+    max-width: 300px;
+}
 
 .header-main-text {
     color: #F9FAF8;
@@ -71,12 +80,21 @@ header > nav > ul,
 
 .header-secondary-text {
     color: #E5E7EB;
+    margin-bottom: 25px;
 }
 
 
 .hero > img {
     width: 500px;
     height: 200px;
+}
+
+.signUp-header {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 5px 16px;
+    border-radius: 5px;
+    border: 1px solid #3882F6;
 }
 
 
@@ -89,7 +107,7 @@ header > nav > ul,
     display: flex;
     flex-direction: column;
     gap : 50px;
-    margin-bottom: 32px;
+    margin-bottom: 100px;
 }
 
 
@@ -115,10 +133,10 @@ header > nav > ul,
 /*################ Quote #############################*/
 
 .quote-container {
-    padding : 45px;
+    padding : 100px;
     background-color: #E5E7EB;
     font-size: 36px;
-    color: #1F2937;
+    color: #646D79;
     font-style: italic;
     font-weight: light;
     display: flex;
@@ -131,17 +149,19 @@ header > nav > ul,
    
     display: flex;
     flex-direction: column;
-    max-width: 1000px;
+    max-width: 800px;
 }
 
 
 .quote-person {
     align-self: flex-end;
+    color: #1F2937;
 }
 
 /*################ Sign up #############################*/
 
 .signUp-container {
+    color: #E5E7EB;
    padding: 120px 0px ;
    display: flex;
    justify-content: center;
@@ -150,17 +170,20 @@ header > nav > ul,
 
 
 .signUp-card {
-    padding: 10px 120px;
-    border-radius: 1em;
+    padding: 45px 120px;
+    border-radius: 5px;
     background-color: #3882F6;
     display: flex;
     gap: 200px; 
 }
 
 #signUp-button {
+    color: #E5E7EB;
     align-self: center;
-    height: 30px;
-    width: 100px;
+    padding: 3px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #3882F6;
 }
 
 
